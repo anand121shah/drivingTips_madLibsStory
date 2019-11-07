@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD</string>
+    <string name="app_name">Driving Tips</string>
     <string name="adj1">Adjective #1</string>
     <string name="adj2">Adjective #2</string>
     <string name="adj3">Adjective #3</string>
@@ -21,7 +21,7 @@
     <string name="adj2F">ADJ 2</string>
     <string name="txt5">always blow your</string>
     <string name="adj3F">ADJ 3</string>
-    <string name="advF">ADV F</string>
+    <string name="advF">ADV</string>
     <string name="noun1F">NOUN 1</string>
     <string name="noun2F">NOUN 2</string>
     <string name="noun3F">NOUN 3</string>
@@ -29,7 +29,7 @@
     <string name="noun5F">NOUN 5</string>
     <string name="noun6F">NOUN 6</string>
     <string name="plural_nounF">PLURAL NOUN</string>
-    <string name="txt6">Before makeing a</string>
+    <string name="txt6">Before making a</string>
     <string name="txt7">turn,</string>
     <string name="txt8">always stick to your</string>
     <string name="txt9">way out of the window.</string>

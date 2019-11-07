@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="10.5pt"
             android:typeface="normal"
             android:verticalScrollbarPosition="defaultPosition"
@@ -32,7 +33,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/adj1"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -40,7 +42,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/adj2"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -48,7 +51,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/adj3"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -56,7 +60,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/adv"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -64,7 +69,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/noun1"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -72,14 +78,16 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/noun2"
-            android:inputType="textPersonName"></EditText>
+            android:inputType="textPersonName"
+            android:autofillHints=""></EditText>
 
         <EditText
             android:id="@+id/noun3"
             android:layout_height="wrap_content"
             android:hint="@string/noun3"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -87,7 +95,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/noun4"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -95,7 +104,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/noun5"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -103,7 +113,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/noun6"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <EditText
@@ -111,7 +122,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/plural_noun"
             android:inputType="textPersonName"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:autofillHints="">
         </EditText>
 
         <Button
