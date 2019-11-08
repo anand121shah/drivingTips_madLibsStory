@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.Toast
 
 //val adj1X = "com"
 //val adj2X = "com"
@@ -75,6 +76,9 @@ class MainActivity : AppCompatActivity() {
                 putExtra("pluralNounX", pluralNounXF)
             }
             startActivity(intent)
+        }
+        else{
+            Toast.makeText(this, "Please fill all the text-box.", Toast.LENGTH_SHORT).show()
         }
 
     }
