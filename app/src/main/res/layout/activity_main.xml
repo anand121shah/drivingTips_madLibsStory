@@ -128,8 +128,9 @@
 
         <Button
             android:id="@+id/generate_button"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="true"
             android:onClick="sendMessage"
             android:text="@string/button_text"></Button>
     </LinearLayout>

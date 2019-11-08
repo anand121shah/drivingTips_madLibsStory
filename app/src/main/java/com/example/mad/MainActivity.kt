@@ -6,17 +6,17 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 
-val adj1X = "com"
-val adj2X = "com"
-val adj3X = "com"
-val advX = "com"
-val Noun1X = "com"
-val Noun2X = "com"
-val Noun3X = "com"
-val Noun4X = "com"
-val Noun5X = "com"
-val Noun6X = "com"
-val pluralNounX = "com"
+//val adj1X = "com"
+//val adj2X = "com"
+//val adj3X = "com"
+//val advX = "com"
+//val Noun1X = "com"
+//val Noun2X = "com"
+//val Noun3X = "com"
+//val Noun4X = "com"
+//val Noun5X = "com"
+//val Noun6X = "com"
+//val pluralNounX = "com"
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,20 +59,23 @@ class MainActivity : AppCompatActivity() {
         val editText11 = findViewById<EditText>(R.id.plural_noun)
         val pluralNounXF = editText11.text.toString()
 
-        val intent = Intent(this, DisplayMessageActivity::class.java).apply {
-            putExtra("adj1X", adj1XF)
-            putExtra("adj2X", adj2XF)
-            putExtra("adj3X", adj3XF)
-            putExtra("advX", advXF)
-            putExtra("Noun1X", noun1XF)
-            putExtra("Noun2X", noun2XF)
-            putExtra("Noun3X", noun3XF)
-            putExtra("Noun4X", noun4XF)
-            putExtra("Noun5X", noun5XF)
-            putExtra("Noun6X", noun6XF)
-            putExtra("pluralNounX", pluralNounXF)
+
+        if (adj1XF != "" && adj2XF != "" && adj3XF != "" && advXF != "" && noun1XF != "" && noun2XF != "" && noun3XF != "" && noun4XF != "" && noun5XF != "" && noun6XF != "" && pluralNounXF != "") {
+            val intent = Intent(this, DisplayMessageActivity::class.java).apply {
+                putExtra("adj1X", adj1XF)
+                putExtra("adj2X", adj2XF)
+                putExtra("adj3X", adj3XF)
+                putExtra("advX", advXF)
+                putExtra("Noun1X", noun1XF)
+                putExtra("Noun2X", noun2XF)
+                putExtra("Noun3X", noun3XF)
+                putExtra("Noun4X", noun4XF)
+                putExtra("Noun5X", noun5XF)
+                putExtra("Noun6X", noun6XF)
+                putExtra("pluralNounX", pluralNounXF)
+            }
+            startActivity(intent)
         }
-        startActivity(intent)
+
     }
 }
-
